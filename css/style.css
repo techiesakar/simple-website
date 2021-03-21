@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('global.css');
+@import url('fontello.css');
 
 :root {
     --primary-color: #047aed;
@@ -173,6 +174,10 @@ code,pre {
     font-weight: bold;
 }
 
+.stats .grid i {
+    font-size: 3rem;
+}
+
 /* Cli */
 .cli .grid {
     grid-template-columns: repeat(3, 1fr);
@@ -223,6 +228,7 @@ code,pre {
 
 .features-main .card>i {
     margin-right: 20px;
+    font-size: 3rem;
 }
 
 
@@ -265,6 +271,10 @@ code,pre {
 /* Footer */
 .footer .social a {
     margin: 0 10px;
+}
+
+.footer .social i {
+    font-size: 20px;
 }
 
 /* Animations */
